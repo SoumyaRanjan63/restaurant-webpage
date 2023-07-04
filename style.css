@@ -1,0 +1,172 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+ .wrapper{
+    width: 100%;
+    overflow: hidden;
+ }
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'lato', sans-serif;
+}
+.container {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+#nav-item{
+   display: flex;
+   justify-content: center;
+   
+}
+.sociallogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10%;
+    height: 60px;
+    
+}
+.sociallogo a{
+    color: white;
+}
+main{
+    width: 100%;
+    box-sizing: border-box;
+}
+.maincontaint{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/1005/1000/931/delicious-pizza-pepperoni-pizza-wallpaper-preview.jpg);
+    background: img width 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color:white;
+    height:600px;
+    width: 100%;
+    padding-left:50px ;
+    padding-top: 90px;
+    opacity: 0.9;
+}
+.maincontaint h1{
+  font-size:70px;
+  width: 40%;
+  opacity: 1;
+}
+.bar{
+    border: 7px solid rgb(247, 69, 5);
+    width: 23%;
+}
+.maincontaint p{
+    font-size: 20px;
+    width: 30%;
+    opacity: 1;
+}
+/* for aboutsection */
+.about{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+.about h1 {
+    display: flex;
+    font-size: 43px;
+    font-weight: 400;
+    justify-content: center;
+    font-family: 'Quattrocento', serif;
+    
+}
+.underline{
+    border: 5px solid rgb(247, 69, 5);
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    margin-left: 37%;
+}
+.aboutcontaint{
+   display: flex;
+   justify-content: space-evenly;
+   column-gap: 10px;
+   width: 100%;
+}
+.text p{
+    width: 200p;
+    font-size: 20px;
+}
+img{
+    width: 40%;
+    height: 450px;
+}
+.text{
+    width: 20%;
+}
+.thinbar{
+    border: 3px solid rgb(247, 69, 5);
+    width: 90%;
+}
+
+/* for menu section  */
+
+.menu{
+    width: 100%;
+    height:1000px;
+    background-color: black;
+    color: white;
+}
+
+.titel h1{
+    display: flex;
+    font-size: 50px;
+    font-weight: 400;
+    justify-content: center;
+    font-family: 'Quattrocento', serif;
+}
+.menu-bar{
+    border: 5px solid rgb(247, 69, 5);
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    margin-left: 42%;
+    margin-bottom: 35px;
+}
+.description{
+    font-size: 25px;
+    padding: 5px 90px;
+}
+.menu-types{
+    margin: 70px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    column-gap: 12px;
+    row-gap: 12px;
+
+}
+.menu-items{
+    width: 27%;
+    height: 160px;
+    margin-left: 20px;
+    margin-top: 63px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2 1fr);
+    column-gap: 9px;
+
+}.menu-items img{
+    width: 99%;
+    height: 157px;
+    grid-row-start: 3;
+    grid-row-end: 1;
+}
+p.fp{
+    color: yellow;
+}
+p.sp{
+    font-size: 18px;
+}
